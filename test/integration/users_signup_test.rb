@@ -12,7 +12,6 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
     end
     assert_template 'users/new'
   end
-end
 
 test "valid signup information" do
     get signup_path
@@ -27,3 +26,4 @@ test "valid signup information" do
     assert is_logged_in?
     # assert_not flash.FILL_IN
   end
+end
