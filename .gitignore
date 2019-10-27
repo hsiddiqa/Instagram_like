@@ -22,3 +22,6 @@
 .byebug_history
 
 # Ignore Spring files.
+
+# Ignore uploaded test images.
+/public/uploads
